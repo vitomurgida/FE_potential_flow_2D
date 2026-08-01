@@ -32,8 +32,8 @@ in src/fenicsx_potential_flow_2d/main.py:
 - plot velocity vector fiels
 
 # Boundary conditions
-- Dirichlet on left boundary, imposing infinite velocity directed towards positive x (from left to right)
-- Neumann on right, imposing normal component of velocity equal to infinite velocity
+- Imposed Dirichlet on left boundary, imposing infinite velocity directed towards positive x (from left to right)
+- Imposed Neumann on right, imposing normal component of velocity equal to infinite velocity
 - Natural Neumann (null normal component of velocity, i.e., no penetration) on top, bottom and obstacles, naturally taken into account by excluding these boundaries in the right hand side of the weak formulation (L)
 
 # Mesh 
