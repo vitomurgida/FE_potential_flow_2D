@@ -1,6 +1,7 @@
 # Introduction and motivation
 This project contains a python code into FEniCSx environment to solve a potential flow with a Finite Element discretization of the Laplace equation.
 
+
 The project has been created as a validation of personal studies on how to properly write a weak form of a differential problem and solve it. 
 
 The Laplace equation for the velocity potential of an incompressible, irrotational and inviscid flow offers a simple example to test.
