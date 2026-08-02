@@ -12,7 +12,7 @@ Conda must be installed on the machine where the code is run
 1. Move to the project folder
 
 2. Run the following command in the terminal to create and setup the local environment in the project folder:
-conda env create -f environment.txt --prefix ./venv
+conda env create -f environment.yml --prefix ./venv
 
 3. Run the following command in the terminal to activate the local environment:
 conda activate ./venv
