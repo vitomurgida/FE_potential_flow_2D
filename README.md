@@ -11,12 +11,10 @@ Conda must be installed on the machine where the code is run
 # How to run it
 1. Move to the project folder
 
-2. Run the following command in the terminal to create and setup the local environment in the project folder:
-   
+2. Run the following command in the terminal to create and setup the local environment in the project folder:<br>
 conda env create -f environment.yml --prefix ./venv
 
-4. Run the following command in the terminal to activate the local environment:
-   
+4. Run the following command in the terminal to activate the local environment: <br>
 conda activate ./venv
 
 6. Run the code src/fenicsx_potential_flow_2d/main.py
