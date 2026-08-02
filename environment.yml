@@ -1,9 +1,22 @@
 name: fenicsx-env
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.13
+  # Core Python
+  - python>=3.13
+
+  # FEniCSx / DOLFINx and math ecosystem
   - fenics-dolfinx
-  - mpich
+  - fenics-ufl
   - mpi4py
+  - numpy
+  - petsc4py
+
+  # Meshing tools
+  - gmsh
   - python-gmsh
+  - meshio
+
+  # Visualization
+  - pyvista
