@@ -18,7 +18,7 @@ conda env create -f environment.yml --prefix ./venv
 conda activate ./venv
 
 4. Set the following as the interpreter used by src/fenicsx_potential_flow_2d/main.py: <br>
-"your_path"/FE_plate_modal-main/venv/bin/python
+"your_path"/FE_potential_flow_2D-main/venv/bin/python
 
 5. Run the code src/fenicsx_potential_flow_2d/main.py
 
